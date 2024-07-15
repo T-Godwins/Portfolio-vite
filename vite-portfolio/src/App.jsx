@@ -1,4 +1,4 @@
-import Header from './Header.jsx'
+import Header from './Header/Header.jsx'
 import Footer from './Footer.jsx'
 import Food from './Food.jsx'
 import Card from './Card/Card.jsx'
@@ -11,11 +11,12 @@ function App(){
 
   return(
     <>
-    <Headshot/>
-    <Navigation/>
-    <Headshot/><Headshot/>
-    <Card/>
     <Header/>
+    {/* <Headshot/> */}
+    <Navigation/>
+    <Headshot/>
+    <Headshot/>
+    <Card/>
     <Footer/>
     <Card/>
     </>

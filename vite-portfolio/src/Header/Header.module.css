@@ -1,0 +1,59 @@
+@keyframes fade-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes fade-left {
+    0% {
+        opacity: 0;
+        transform: translateX(30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) scale(1);
+    }
+}
+
+.Header {
+    background-color:white;
+    margin: 5%;
+    padding: 0%;
+}
+
+.Header h3{
+    color: rgb(236, 87, 87);
+    font-size: 200%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    text-shadow: 10%;
+    padding: 0%;
+    animation: fade-up 1s;
+}
+
+.Header h1 {
+    color:black;
+    font-size:300%;
+    padding-top: 0%;
+    animation: fade-left 1s;
+}
+
+
