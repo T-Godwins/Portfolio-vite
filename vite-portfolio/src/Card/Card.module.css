@@ -1,11 +1,11 @@
 .card{
-    border: 1px solid rgba(180, 149, 149, 0.188);
+    border: 1px solid white(252, 252, 252, 0.188);
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(54, 52, 52, 0.202);
+    box-shadow: 0px 5px 0px 5px rgba(193, 188, 188, 0.113);
     padding: 20px;
     margin: 10px;
     text-align: left;
-    max-width: width 250px;
+    max-width: 60%;
     display: inline-block
   }
   
@@ -19,11 +19,19 @@
 
 .card h2{
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0%;
     color:rgb(11, 10, 10);
+
 }
 
 .card p{
     font-family: Arial, sans-serif;
-    color:rgb(186, 186, 48);
+    font-size:150%;
+    color:black;
+}
+
+.card l1 {
+    font-family: Arial, sans-serif;
+    font-size:150%;
+    color:rgb(191, 45, 45);
 }
