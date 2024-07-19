@@ -61,6 +61,10 @@
     cursor: pointer;
 }
 
+.about img:hover{
+    filter: drop-shadow(0 0 2em #f2400a51);
+}
+
 .about h2{
     font-family: Arial, sans-serif;
     margin: 0%;
@@ -78,7 +82,7 @@
 
 
 .skills{
-    background-color: rgba(167, 219, 202, 0.176);
+    /* background-color: rgba(204, 222, 216, 0.176); */
     border: 1px solid white(252, 252, 252, 0.188);
     border-radius: 30px;
     /* box-shadow: 5px 5px 5px 5px rgba(193, 188, 188, 0.113); */
@@ -86,6 +90,8 @@
     margin: 10px;
     text-align: left;
     max-width: auto;
+    min-width: 50%;
+
     display: inline-block
   }
 
@@ -96,20 +102,30 @@
     color:black;
     padding: 30px;
     letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
+    list-style: none;
+    
 }
 
-.python {
-    max-width: 25%;
+.python, .cplus, .sql, .java, .R{
+    width: 15%;
     height: auto;
-    border-radius: 50%;
-    margin-bottom: 10px;
+    margin: 10px;
     cursor: pointer;
 }
 
-.cplus{
-    max-width: 10px;
+.Aws {
+    width: 100px;
     height: auto;
-    border-radius: 50%;
-    margin-bottom: 10px;
+    /* border-radius: 50%; */
+    margin: 10px;
     cursor: pointer;
 }
+
+.skills p {
+    font-size: 20px;
+}
+.python:hover, .cplus:hover, .sql:hover, .java:hover, .R:hover {
+    filter: drop-shadow(0 0 2em #f2400aaa);
+  }

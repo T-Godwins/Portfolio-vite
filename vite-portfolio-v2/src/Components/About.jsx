@@ -1,7 +1,15 @@
 import './About.css'
 import headshot from '../assets/Headshot.jpg'
+import cplus from '../assets/cplus.svg'
+import sql from '../assets/sql.svg'
+import java from '../assets/javascript.svg'
+import rstudio from '../assets/rstudio.png'
+import aws from '../assets/amazon.svg'
+
+
+
+
 const python = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg";
-const cplus = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg";
 
 function About(){
     return(
@@ -16,13 +24,14 @@ function About(){
         <div className="skills">
             <ul>
                           
-                <li>Programming Languages: Python, R, C++</li>
+                <li>Programming Languages</li>
                 <img className="python" src={python} alt="python logo"></img>
-                {/* <img className="cplus" src={cplus} alt="C++ logo"></img> */}
-
-                <li>Data Analysis Tools: SQL, Tableau, Microsoft Excel</li>
-                <li>Other Tools: Microsoft PowerPoint, Adobe Photoshop</li>
-                <li>Certifications: Currently pursuing AWS Cloud Practitioner certification</li>
+                <img className="cplus" src={cplus} alt="C++ logo"></img>
+                <img className="sql" src={sql} alt="sql logo"></img>
+                <img className="java" src={java} alt="javascript logo"></img>
+                <img className="R" src={rstudio} alt="R logo"></img>
+                <li>Certifications:<p>*Currently pursuing*</p></li>
+                <img className="Aws" src={aws} alt="amazon logo"></img>
             </ul>
         </div>
         </>
