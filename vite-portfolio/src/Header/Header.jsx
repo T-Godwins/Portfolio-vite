@@ -1,6 +1,4 @@
 import styles from './Header.module.css'
-import Headeshot from '../Card/About'
-import Headshot from '../Card/About';
 import Navigation from '../Navigation/Navigation';
 function Header(){
     

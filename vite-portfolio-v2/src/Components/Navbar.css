@@ -1,0 +1,81 @@
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+.navbar{
+    background-color: bisque;
+    width: 100%;
+    border-radius: 10px;
+    padding:10px;
+    margin:0;
+    display:inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    animation: fade-up 3;
+    position: sticky;
+    top: 0;
+
+}
+
+.left button{
+    background-color:rgba(0, 0, 0, 0.804);
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding:15px;
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    margin-right: 5%;
+    cursor:pointer;
+  }
+
+.right button{
+    background-color:white;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    padding:15px;
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    margin-right: 5%;
+    cursor:pointer;
+  }
+
+.left button:hover {
+    background-color:rgba(0, 0, 0, 0.898);
+    border-color: rgba(255, 255, 255, 0.218);
+
+}
+
+.right button:hover {
+    background-color:rgba(16, 16, 16, 0.181);
+    border-color: rgba(0, 0, 0, 0.131);
+
+  }
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.linkedin, .gmail, .github {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+.navbar .left, .navbar .right {
+    display: flex;
+}
