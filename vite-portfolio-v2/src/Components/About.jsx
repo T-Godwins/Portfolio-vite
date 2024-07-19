@@ -23,15 +23,17 @@ function About(){
         </div>
         <div className="skills">
             <ul>
-                          
                 <li>Programming Languages</li>
+                <li>
                 <img className="python" src={python} alt="python logo"></img>
                 <img className="cplus" src={cplus} alt="C++ logo"></img>
                 <img className="sql" src={sql} alt="sql logo"></img>
                 <img className="java" src={java} alt="javascript logo"></img>
                 <img className="R" src={rstudio} alt="R logo"></img>
-                <li>Certifications:<p>*Currently pursuing*</p></li>
-                <img className="Aws" src={aws} alt="amazon logo"></img>
+                </li>
+                <li>Certifications:</li>
+                <li><img className="Aws" src={aws} alt="amazon logo"></img><p>*Currently pursuing*</p></li>
+                
             </ul>
         </div>
         </>

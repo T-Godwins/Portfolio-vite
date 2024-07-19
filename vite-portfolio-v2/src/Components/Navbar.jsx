@@ -8,7 +8,6 @@ const github = 'https://github.com/T-Godwins'
 
 function Navbar(){
     return(
-        <>
         <div className='navbar'>
             <div className='left'>
                 <button><a href='#' alt=''>About Me</a></button>
@@ -20,7 +19,7 @@ function Navbar(){
                 <button><a href={github} alt='github'><img src={gitLogo} className='github' alt='github'></img></a></button>
             </div>
         </div>
-        </>
+    
     );
 }
 

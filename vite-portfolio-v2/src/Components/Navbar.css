@@ -11,18 +11,20 @@
 }
 
 .navbar{
-    /* background-color: bisque; */
+    background-color: white;
     width: 100%;
     border-radius: 10px;
-    padding:10px;
+    padding:3px;
     margin:0;
     display:inline-block;
     display: flex;
     justify-content: space-between;
     align-items: center;
     animation: fade-up 2s;
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.034);
+    
 
-    position: 'sticky';
+    position: sticky;
     top: 0px;
 }
 
@@ -62,7 +64,7 @@
 }
 
 .right button:hover {
-    background-color:rgba(16, 16, 16, 0.181);
+    background-color:rgba(16, 16, 16, 0.03);
     border-color: rgba(0, 0, 0, 0.131);
 
   }
