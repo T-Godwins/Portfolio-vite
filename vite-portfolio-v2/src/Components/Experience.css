@@ -1,5 +1,8 @@
 
 
+.title {
+    font-size: 20px;
+}
 .experience {
     background-color: aqua;
     display:flex;
@@ -8,7 +11,6 @@
     letter-spacing: 1px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
 }
-
 .experience ul{
     border-radius: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

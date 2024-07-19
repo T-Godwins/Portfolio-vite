@@ -6,6 +6,7 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import About from './Components/About'
 import Experience from './Components/Experience'
+import { motion } from 'framer-motion'
 
 
 function App() {
@@ -15,8 +16,24 @@ function App() {
     <>
       <div className="navbar"><Navbar/></div>
       <div className="header"><Header/></div>
-      <div className="About"><About/></div>
+
+
+      <motion.div 
+        initial={{opacity:0, y: 50}}
+        whileInView={{opacity: 1, y: 0, transition: {delay: 0.2 , duration: 0.5}}}
+        viewport={{once: false, amount: .5}} 
+        className="About"><About/></motion.div>
+
+      {/* <motion.div 
+        initial={{opacity:0, y: 50}}
+        whileInView={{opacity: 1, y: 0, transition: {delay: 0.2 , duration: 0.5}}}
+        viewport={{once: false, amount: .5}}  className='title'>Experience</motion.div> 
+         */}
+
       <div className="experience"><Experience/></div>
+
+
+      
 
 
       <div>
