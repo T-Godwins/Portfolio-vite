@@ -5,6 +5,8 @@ import Header from './Components/Header'
 import './App.css'
 import Navbar from './Components/Navbar'
 import About from './Components/About'
+import Experience from './Components/Experience'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +16,7 @@ function App() {
       <div className="navbar"><Navbar/></div>
       <div className="header"><Header/></div>
       <div className="About"><About/></div>
+      <div className="experience"><Experience/></div>
 
 
       <div>
