@@ -11,7 +11,7 @@
 }
 
 .navbar{
-    background-color: bisque;
+    /* background-color: bisque; */
     width: 100%;
     border-radius: 10px;
     padding:10px;
@@ -20,12 +20,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
-    animation: fade-up 3;
-    position: sticky;
-    top: 0;
+    animation: fade-up 2s;
 
+    position: 'sticky';
+    top: 0px;
+}
+
+.navbar .left, .navbar .right {
+    display: flex;
 }
 
 .left button{
@@ -39,6 +41,7 @@
     margin-right: 5%;
     cursor:pointer;
   }
+
 
 .right button{
     background-color:white;
@@ -74,8 +77,4 @@
     width: 30px;
     height: auto;
     cursor: pointer;
-}
-
-.navbar .left, .navbar .right {
-    display: flex;
 }
