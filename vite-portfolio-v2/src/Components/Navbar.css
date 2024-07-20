@@ -15,14 +15,13 @@
     background-color: white;
     width: 100%;
     border-radius: 10px;
-    padding:3px;
-    margin:0;
+    padding:1px;
     display:inline-block;
     display: flex;
     justify-content: space-between;
     align-items: center;
     animation: fade-up 2s;
-    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.034);
+    box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.034);
 
     position: sticky;
     top: 0;
@@ -37,11 +36,11 @@
     background-color:rgba(0, 0, 0, 0.804);
     border-radius: 20px;
     border: 2px solid transparent;
-    padding:15px;
-    width: 200px;
+    padding:5px;
+    width: 150px;
     height: auto;
     display: inline-block;
-    margin-right: 5%;
+    margin-left: 20%;
     cursor:pointer;
   }
 
@@ -50,8 +49,8 @@
     background-color:white;
     border-radius: 30px;
     border: 2px solid transparent;
-    padding:15px;
-    width: 150px;
+    padding:5px;
+    width: 100px;
     height: auto;
     display: inline-block;
     margin-right: 5%;
@@ -73,7 +72,7 @@
 .navbar a{
     color:white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .linkedin, .gmail, .github {

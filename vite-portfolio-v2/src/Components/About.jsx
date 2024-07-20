@@ -1,4 +1,6 @@
 import './About.css'
+import { motion } from 'framer-motion'
+
 import headshot from '../assets/Headshot.jpg'
 import cplus from '../assets/cplus.svg'
 import sql from '../assets/sql.svg'
@@ -21,7 +23,11 @@ function About(){
             Software Engineering Fellow at Headstarter where I am embarking on building 5 AI projects in 5 weeks.
             </p>
         </div>
-        <div className="skills">
+        <motion.div 
+            initial={{opacity:0, x: 50}}
+            whileInView={{opacity: 1, x: 0, transition: {delay: 1 , duration: 0.5}}}
+            viewport={{once: false, amount: .5}} 
+            className="skills">
             <ul>
                 <li>Programming Languages</li>
                 <li>
@@ -35,7 +41,7 @@ function About(){
                 <li><img className="Aws" src={aws} alt="amazon logo"></img><p>*Currently pursuing*</p></li>
                 
             </ul>
-        </div>
+        </motion.div>
         </>
     );
 }

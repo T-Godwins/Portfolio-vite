@@ -6,6 +6,8 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import About from './Components/About'
 import Experience from './Components/Experience'
+import Projects from './Components/Projects'
+
 import { motion } from 'framer-motion'
 
 
@@ -31,6 +33,7 @@ function App() {
          */}
 
       <div className="experience"><Experience/></div>
+      <div className="projects"><Projects/></div>
 
 
       

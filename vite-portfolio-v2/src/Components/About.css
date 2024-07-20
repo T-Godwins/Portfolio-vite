@@ -23,7 +23,7 @@
 }
 
 .About{
-    background-color: rgba(38, 106, 29, 0.639);
+    /* background-color: rgba(38, 106, 29, 0.639); */
     width: 100%;
     border-radius: 10px;
     padding:10px;
@@ -46,6 +46,7 @@
     text-align: left;
     max-width: 50%;
     display: inline-block;
+    background-color: rgba(127, 255, 212, 0.114);
 
   }
 
@@ -55,19 +56,17 @@
 }
   
 .about img{
-    width: 35%;
+    width: 30%;
     height: auto;
     border-radius: 50%;
     margin-bottom: 10px;
     cursor: pointer;
 }
 
-.about img:hover{
-    filter: drop-shadow(0 0 2em #f2400a51);
-}
+
 
 .about h2{
-    font-family: Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0%;
     color:rgb(11, 10, 10);
     letter-spacing: 1px;
@@ -75,19 +74,19 @@
 }
 
 .about p{
-    font-family: Arial, sans-serif;
-    font-size:150%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:125%;
     color:black;
     letter-spacing: 1px;
 }
 
 
 .skills{
-    /* background-color: rgba(204, 222, 216, 0.176); */
+    background-color: rgba(204, 222, 216, 0.176);
     border: 1px solid white(252, 252, 252, 0.188);
     border-radius: 30px;
     /* box-shadow: 5px 5px 5px 5px rgba(193, 188, 188, 0.113); */
-    padding: 20px;
+    padding: 50px;
     margin: 10px;
     max-width: auto;
     min-width: 50%;
@@ -96,18 +95,21 @@
     display: inline-block
   }
 
+.skills ul{
+    background-color: #f2400a20;
+    border-radius: 30px;
 
+}
 .skills li{
-    font-family: Arial, sans-serif;
-    font-size:250%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:200%;
     color:black;
-    padding: 30px;
+    padding: 10px;
     letter-spacing: 1px;
     font-weight: 500;
     text-align: center;
     list-style: none;
     align-items: center;
-
     
 }
 
