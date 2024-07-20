@@ -35,7 +35,28 @@ function App() {
 
 
   
-      <h1 className='footer'>More projects in the comming weeks!</h1>
+      <motion.h1
+      initial={{opacity:0, x:-50}}
+      whileInView={{opacity:1, x:0, trantion: {delay: 0.2, duration: 0.5}}}
+      viewport={{once:false, amount:.5}}
+      className='footer'>More projects in the comming weeks!</motion.h1>
+
+      <h1 className='thanks'>
+        
+      <motion.p 
+          initial={{opacity:0, x:-50}}
+          whileInView={{opacity:1, x:0, trantion: {delay: 5, duration: 10}}}
+          viewport={{once:false, amount:.5}}>
+          Thank you
+        </motion.p>
+
+        <motion.p 
+          initial={{opacity:0, x:50}}
+          whileInView={{opacity:1, x:0, trantion: {delay: 5, duration: 10}}}
+          viewport={{once:false, amount:.5}}>
+          .
+        </motion.p>
+      </h1>
     </>
   )
 }
