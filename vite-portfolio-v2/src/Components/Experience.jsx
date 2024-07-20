@@ -10,11 +10,18 @@ const oncocyte = 'https://oncocyte.com/';
 function Experience(){
     return(
         <>
+        <motion.h1
+            initial={{opacity:0}}
+            whileInView={{opacity: 1, transition: {delay: 0.2 , duration: 1}}}
+            viewport={{once: false, amount: 1}} 
+            className='exp-title'>Experience
+        </motion.h1>
+
         <motion.div 
             initial={{opacity:0, x: 500}}
             whileInView={{opacity: 1, x: 0, transition: {delay: 0.2 , duration: 1}}}
             viewport={{once: false, amount: .5}} 
-            className='experience'>
+            className='experiences'>
             <motion.ul
                 initial={{opacity:0}}
                 whileInView={{opacity: 1, transition: {delay: 0.2 , duration: 1}}}
@@ -38,7 +45,7 @@ function Experience(){
                 initial={{opacity:0}}
                 whileInView={{opacity: 1, transition: {delay: 0.2 , duration: 1}}}
                 viewport={{once: false, amount: .5}} >Bayesion False Discovery Researcher
-            <p><a href={wofford}>Wofford College</a>: June 2021 - August 2023</p>
+                <p><a href={wofford}>Wofford College</a>: June 2021 - August 2023</p>
                 <li>Compared different methodologies of improving syndromic surveillance to aid the discovery of potential health outbreaks.</li>
                 <li>Retrieved and analyzed over 1,000,000 inputs of daily surface level 8-hour ozone data from 1997 to 2022 through the US Environmental Protection Agency's air explorer database.</li>
                 <li>Prepared ozone data accessibility by analyzing and adjusting for timely consideration of decreasing trends.</li>
